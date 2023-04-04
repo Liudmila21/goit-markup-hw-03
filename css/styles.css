@@ -1,0 +1,157 @@
+:root {
+  --color-accent: #4d5ae5;
+  --bg-accent: #4d5ae5;
+  --accent-active: #404bbf;
+  --secondary-text-color: #2e2f42;
+  --secondary-bg-color: #2e2f42;
+  --primary-text-color: #434455;
+  --color-cloud: #f4f4fd;
+  --bg-btn-portfolio: #f4f4fd;
+  --bg-white: #ffffff;
+}
+
+/*------------------------------------------ */
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--bg-white);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+
+.header {
+}
+
+.logo {
+  color: var(--color-accent);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--secondary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-element {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+}
+
+.nav-element:hover,
+.nav-element:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--accent-active);
+}
+
+.address {
+  font-style: normal;
+}
+
+.contact {
+  color: var(--primary-text-color);
+}
+.hero {
+  background-color: var(--secondary-bg-color);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--bg-white);
+  background-color: var(--secondary-bg-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  color: var(--bg-white);
+  font-family: inherit;
+  background-color: var(--bg-accent);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-active);
+}
+
+.section {
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.sub-title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team {
+  background-color: var(--color-cloud);
+}
+.card-item {
+  background-color: var(--bg-white);
+}
+
+.text {
+  color: var(--primary-text-color);
+}
+
+.footer {
+  color: var(--color-cloud);
+  background-color: var(--secondary-bg-color);
+}
+
+.footer-studio {
+  color: var(--color-cloud);
+}
+
+.btn {
+  color: var(--color-accent);
+  background-color: var(--bg-btn-portfolio);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  /*border: none;*/
+}
+.btn:hover,
+.btn:focus {
+  color: var(--bg-white);
+  background-color: var(--accent-active);
+}
